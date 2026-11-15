@@ -8,9 +8,11 @@ Watch the live demo on YouTube [here](https://youtu.be/YdV11jfKGtc)
 
 1. Make sure zsh is installed:
   macOS: Pre installed by default
-  Linux (Ubuntu/Debian): 'sudo apt update && sudo apt install zsh'
+  Linux (Ubuntu/Debian): `sudo apt update && sudo apt install zsh`
   Windows: Run inside WSL or Git Bash with zsh installed
 
-2. Download and run the script
-'''
-zsh
+2. Download
+`curl -L https://raw.githubusercontent.com/gabrielb7348/NumberGuessingGame/main/numberguess.zsh -o numberguess.zsh`
+
+3. Run the script
+`zsh numberguess.zsh`
